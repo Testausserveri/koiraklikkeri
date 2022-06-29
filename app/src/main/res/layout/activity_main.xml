@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/dogButton"
+        android:layout_width="197dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="292dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gradient_logo_1" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Klikkaa koiraa!"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dogButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
