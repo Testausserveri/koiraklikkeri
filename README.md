@@ -1,2 +1,2 @@
 # koiraklikkeri
-Hieno "clicker"-peli Androidille jossa pitää klikata Testauskoiraa :D
+Clicker game for Android where you click our mascot Testauskoira. How cool is that?
